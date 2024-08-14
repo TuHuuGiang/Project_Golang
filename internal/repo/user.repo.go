@@ -2,7 +2,7 @@ package repo
 
 type UserRepo struct{}
 
-func NewUserService() *UserRepo {
+func NewUserRepo() *UserRepo {
 	return &UserRepo{}
 }
 

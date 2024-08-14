@@ -8,7 +8,7 @@ type UserService struct {
 
 func NewUserService() *UserService {
 	return &UserService{
-		userRepo: repo.NewUserService(),
+		userRepo: repo.NewUserRepo(),
 	}
 }
 
