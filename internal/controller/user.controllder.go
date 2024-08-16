@@ -21,3 +21,10 @@ func (uc *UserController) GetUserById(c *gin.Context) {
 
 	response.ErrorResponse(c, response.ErrorCodeParamInvalid, "Email is invalid")
 }
+
+//func (uc *UserController) GetUserById(c *gin.Context) {
+//	c.JSON(http.StatusOK, gin.H{
+//		"message": uc.userService.GetInfoUser(),
+//		"users":   []string{"cr7", "messi"},
+//	})
+//}
